@@ -1,38 +1,111 @@
-.App {
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
   text-align: center;
+  margin-top: 0px;
+  background-color: rgb(244, 247, 247);
+  margin-bottom: 30px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+  padding: 20px;
+}
+a:hover {
+  border-bottom: 2px solid blue;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.appcss1 {
+  word-spacing: 12px;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: rgb(97, 81, 81);
+  font-size: 11px;
 }
 
-.App-link {
-  color: #61dafb;
+.appcss {
+  word-spacing: 12px;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgb(219, 236, 236);
 }
+.appxx {
+  margin: 10px 0px;
+  background-color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(221, 221, 221);
+}
+.srch {
+  position: absolute;
+  left: 1100px;
+  top: 25px;
+  padding: 8px;
+}
+.about {
+  margin: 20px;
+  padding: 10px;
+  word-spacing: 12px;
+  text-align: center;
+  justify-content: center;
+}
+.notfound {
+  padding-top: 180px;
+  margin-top: 10px;
+}
+.product1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  margin: 70px;
+}
+.productz {
+  justify-content: center;
+  width: 500px;
+
+  align-items: center;
+  box-shadow: 0 0 10px #c9c2c2;
+  margin: 10px;
+}
+.productzz {
+  justify-content: right;
+  width: 500px;
+
+  align-items: right;
+  box-shadow: 0 0 10px #fdfdfd;
+  margin-left: 600px;
+  margin-top: -275px;
+  padding: 0px;
+}
+.appxx img {
+  position: absolute;
+  top: 10px;
+  left: 45px;
+  height: 70px;
+}
+.product1 .product3 {
+  padding-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  text-align: center;
+  box-shadow: 0 0 10px #c9c2c2;
+  margin: 10px;
+}
+.productz h1 {
+  padding-top: 25px;
 }
