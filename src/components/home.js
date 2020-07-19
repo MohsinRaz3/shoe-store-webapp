@@ -2,21 +2,21 @@ import React from "react";
 import summer from "./../summer.png";
 import { SummerButton } from "./ButtonCounter";
 import { Link } from "react-router-dom";
+import "fontsource-roboto";
 
 const Home = () => {
   return (
     <div>
-      <marquee behavior="slide" direction="left" scrollamount="30">
+      <div className="sommer">
+        {" "}
         <center>
-          <h3>MID-SUMMER SALE</h3>
+          <h2>MID-SUMMER SALE</h2>
           <h3>
-            Buy 3 to save 30% off your summer styles with promo code SUMMER30.
-            <Link to="https://www.nike.com/my/help/a/summersale-promo-terms">
-              Shop Learn More
-            </Link>{" "}
-          </h3>
+            Buy 3 to save 30% off your summer styles with promo code SUMMER30.{" "}
+            <h3>Shop Learn More</h3>{" "}
+          </h3>{" "}
         </center>
-      </marquee>
+      </div>
       <div className="summerr">
         <img src={summer} alt="summer" height="250px" />
       </div>
