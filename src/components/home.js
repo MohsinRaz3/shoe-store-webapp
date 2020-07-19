@@ -1,7 +1,6 @@
 import React from "react";
 import summer from "./../summer.png";
 import { SummerButton } from "./ButtonCounter";
-import { Link } from "react-router-dom";
 import "fontsource-roboto";
 
 const Home = () => {
