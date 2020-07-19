@@ -1,6 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import shoe from "./../shoe.json";
+import ButtonCounter from "./ButtonCounter";
 
 export const Proitems = () => {
   const { id } = useParams();
@@ -13,8 +14,11 @@ export const Proitems = () => {
     <div>
       <div className="productz">
         <h1>{shoes.name}</h1>
+
         <img src={shoes.img} alt="sneakers" height="350px" />
+        <ButtonCounter />
       </div>
+
       <div className="productzz">
         <h2>
           <h1>ABOUT THIS PRODUCT</h1>
